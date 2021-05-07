@@ -28,5 +28,9 @@
       "passwordField": "password"
     }
   },
-  "mongodb": "mongodb://localhost:27017/stripe_s"
+  "mongodb": "mongodb://localhost:27017/stripe_s",
+  "stripe":{
+    "secret":"SECRET",
+    "redirectURL":"REDIRECT"
+  }
 }

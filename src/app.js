@@ -1,3 +1,6 @@
+
+
+require('dotenv').config();
 const path = require('path');
 const favicon = require('serve-favicon');
 const compress = require('compression');
